@@ -1,0 +1,21 @@
+img {
+  padding: 4px;
+}
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+  font-family: fantasy;
+  color: brown;
+}
+p {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+body {
+  border-bottom: 20px solid white;
+}
