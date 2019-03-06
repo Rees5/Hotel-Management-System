@@ -11,7 +11,7 @@ h2 {
   font-family: fantasy;
   color: brown;
 }
-p {
+.pic {
   text-align: center;
   font-size: 18px;
   font-style: italic;
@@ -19,4 +19,20 @@ p {
 body {
   border-bottom: 20px solid #F9EBEA;
   background-color: #F9EBEA;
+}
+#lounge {
+  float: left;
+}
+.lng {
+  font-size:20px;
+  text-align: center;
+}
+#coffee {
+  float:right;
+}
+#mg {
+  text-align: center;
+  font-family: fantasy;
+  color: brown;
+  margin-top:80px;
 }
