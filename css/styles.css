@@ -5,6 +5,7 @@ h1 {
   text-align: center;
   font-family: serif;
   font-size: 50px;
+  margin-bottom: 50px;
 }
 h2 {
   text-align: center;
@@ -35,4 +36,9 @@ body {
   font-family: fantasy;
   color: brown;
   margin-top:80px;
+}
+.cap {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
 }
