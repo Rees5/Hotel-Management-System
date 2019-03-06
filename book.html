@@ -7,13 +7,13 @@
     <title>Booking form</title>
   </head>
   <body>
-    <form action=""method="GET"
+    <form id="form" action=""method="GET">
     <fieldset>
       <legend>Personal Details: </legend>
-      <label for="name">Username</label><input type="text" name="username"id="name"required autofocus placeholder="your username"pattern=title="please enter in more than three letters"><br>
+      <label for="name">Name</label><input type="text" name="username"id="name"required autofocus placeholder="your username"pattern=title="please enter in more than three letters"></input><br>
       <label for="email">Email</label>  <input type="text" name="email"id="email" required placeholder="Your email" title="please enter a valid email address"><br>
       <label for="phone">phone</label><input type="tel" name="phone" id="phone"required place holder="please enter your phone number"><br>
-    <label for="contries">Countries</label>  <select class="" name="country" required>
+    <label for="contries">Country</label>  <select class="" name="country" required>
         <option value=""> </option>
         <option value="KENY">KENYA</option>
         <option value="UG">UGANDA</option>
@@ -21,13 +21,31 @@
         <option value="RWD">RWANDA</option>
         <option value="BUR">BURUNDI</option>
       </select>
+
     </fieldset>
       <br>
       <fieldset>
-      <p ><legend>Booking Details</legend></P>
-      <label for="date">Booking Date</label><input id="date" type="data" name="date"min="2019-3-5"><br>
-      <label for="numberOfGuest">Number of Guest</label>  <input type="number" name ="numberOfGuest" min="1" max="6"
+      <legend>Booking Details:</legend>
+      <label for="date">Booking Date</label><input id="date" type="date" name="date"min="2019-3-5"><br>
+      <label for="room">Rooms</label>  <select id="room" class="" name="room" required>
+          <option value=""> </option>
+          <option value="50000">Family</option>
+          <option value="100000">cluster</option>
+          <option value="150000">Twin Room</option>
+        </select><br>
+      <label for="numberOfGuest">Number of guests</label>  <select class="" id"guest" name="numberOfGuest" required>
+          <option value=""> </option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+
       </fieldset>
-      <button type="button" name="button">submit</button>
+      <button class="btn btn-sucess"type="button" name="button">submit</button>
+    </form>
+    <label for="total">Total<p id="total"></p>
   </body>
 </html>
