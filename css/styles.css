@@ -5,10 +5,12 @@ body {
  background-color: #F9EBEA;
 }
 #book{
+  margin-top: 10%;
   margin-left: 35%;
   margin-right: 30%;
   margin-bottom: 10%;
   background-color: #F9EBEA;
+  background-image: url("book.jpeg");
 }
 #h1 {
   margin-left: 0%;
