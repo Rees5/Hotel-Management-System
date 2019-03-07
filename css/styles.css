@@ -48,3 +48,7 @@ body {
   margin-bottom: 10%;
   background-color: #F9EBEA;
 }
+#tra {
+  background-image: url("taxi-1.jpeg");
+  background-position: center;
+}
