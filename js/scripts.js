@@ -7,5 +7,6 @@ $(document).ready(function() {
     var guest = f.options[f.selectedIndex].value;
     var price = (room * guest);
     $("#total").text(price);
+    alert("Confirmed! You have succssefully paid " + price + " to belmond hotel.")
   });
 });
