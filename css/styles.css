@@ -38,3 +38,13 @@ body {
 #ab {
   background-image: url("hall.jpg");
 }
+#kd {
+  background-image: url("kids.jpeg");
+}
+#kid {
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  background-color: #F9EBEA;
+}
