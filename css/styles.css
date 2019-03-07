@@ -24,3 +24,7 @@ body {
   margin-bottom: 10%;
   background-color: #F9EBEA;
 }
+#cont {
+  background-image: url("phone.jpeg");
+  background-size: contain;
+}
