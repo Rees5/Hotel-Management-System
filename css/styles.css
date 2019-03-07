@@ -4,7 +4,7 @@ a {
 body {
  background-color: #F9EBEA;
 }
-#book {
+#book{
   margin-left: 35%;
   margin-right: 30%;
   margin-bottom: 10%;
@@ -16,4 +16,11 @@ body {
 }
 #t {
   margin-top: 5%;
+}
+#contact {
+  margin-top: 10%;
+  margin-left: 35%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  background-color: #F9EBEA;
 }
