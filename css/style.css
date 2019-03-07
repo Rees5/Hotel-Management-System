@@ -1,6 +1,3 @@
-img {
-  padding: 4px;
-}
 h1 {
   text-align: center;
   font-family: serif;
@@ -11,12 +8,6 @@ h2 {
   font-family: fantasy;
   color: brown;
 }
-.pic {
-  text-align: center;
-  font-size: 18px;
-  font-style: italic;
-}
 body {
-  border-bottom: 20px solid #F9EBEA;
   background-color: #F9EBEA;
 }
