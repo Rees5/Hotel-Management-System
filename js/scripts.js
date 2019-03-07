@@ -9,7 +9,7 @@ $(document).ready(function() {
     $("#total").text(price);
     $("#pay").click(function(event){
       event.preventDefault();
-      parseInt(prompt("Input your pin"));
+      var pin = parseInt(prompt("Input your pin"));
       if(pin>=1){
       alert("Confirmed! You have succssefully paid " + price + " to belmond hotel.");
     } else {
