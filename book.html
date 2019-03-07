@@ -10,7 +10,10 @@
     <title>Booking form</title>
   </head>
   <body>
+    <h1>Book Now</h1>
     <form action=""method="POST" id="form">
+    <div class="row">
+    <div class="col-md-2"></div>
     <fieldset>
       <legend>Personal Details: </legend>
       <label for="name">Username</label><input type="text" name="username" id="name" placeholder="your username" title="please enter in more than three letters" required><br>
@@ -25,7 +28,7 @@
         <option value="BUR">BURUNDI</option>
       </select>
     </fieldset>
-      <br>
+    <div class="col-md-1"></div>
       <fieldset>
       <legend>Booking Details</legend>
         <label for="room">Rooms:</label>  <select id="room" class="" name="room" required>
@@ -42,13 +45,14 @@
         <option value="4">4</option>
         <option value="5">5</option>
         <option value="6">6</option>
-      </select>
-      <label for="date">Booking Date: </label><input id="date" type="date" name="date"min="2019-3-5"><br>
+      </select><br>
+      <label for="date">Checkin Date: </label><input id="date" type="date" name="date"min="2019-3-5"><br><label for="date">Checkout Date: </label><input id="date1" type="date" name="date"min="2019-3-5"><br>
     </fieldset>
-    <button type="submit" class="btn purple-gradient" name="button">submit</button><button type="submit" id="pay" class="btn purple-gradient" name="button">Pay</button>
+  <div class=""><button type="submit" class="btn purple-gradient" name="button">submit</button><button type="submit" id="pay" class="btn purple-gradient" name="button">Pay</button><br>
+  <button class="btn aqua-gradient"><a href="index.html">Quit</a></button></div>
+</div>
   </form>
-    <label for="total">Total Price:<p id="total"></p>
-
+    <center><label for="total">Total Price:<h3 class="well" id="total"></h3></center>
       <script  src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
       <script src="js/scripts.js"></script>
       <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
