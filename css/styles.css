@@ -1,76 +1,8 @@
-#lounge {
-  float: left;
-}
-.lng {
-  font-size:20px;
-  text-align: center;
-}
-button, a {
+a {
   color: white;
-  font-size: 20px;
-}
-#mg {
-  text-align: center;
-  font-family: fantasy;
-  color: brown;
-  margin-top:80px;
-}
-img {
-  padding: 4px;
-}
-h1 {
-  text-align: center;
-  font-family: serif;
-  font-size: 50px;
-}
-h2 {
-  text-align: center;
-  font-family: fantasy;
-  color: brown;
-}
-.pic {
-  text-align: center;
-  font-size: 18px;
-  font-style: italic;
 }
 body {
-  border-bottom: 20px solid #F9EBEA
-  background-color: #F9EBEA;
-}
-img {
- padding: 4px;
-}
-.pic {
- text-align: center;
- font-size: 18px;
- font-style: italic;
-}
-body {
- border-bottom: 20px solid #F9EBEA
-;
- background-color: #F9EBEA
-;
-}
-#lounge {
- float: left;
-}
-.lng {
- font-size:20px;
- text-align: center;
-}
-#coffee {
- float:right;
-}
-#mg {
- text-align: center;
- font-family: fantasy;
- color: brown;
- margin-top:80px;
-}
-.cap {
- text-align: center;
- font-style: italic;
- font-size: 15px;
+ background-color: #F9EBEA;
 }
 #book {
   margin-left: 35%;
@@ -81,4 +13,7 @@ body {
 #h1 {
   margin-left: 0%;
   margin-right: 30%;
+}
+#t {
+  margin-top: 5%;
 }
