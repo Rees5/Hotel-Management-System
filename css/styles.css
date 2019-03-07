@@ -52,3 +52,7 @@ body {
   background-image: url("taxi-1.jpeg");
   background-position: center;
 }
+#rm {
+  background-image: url("pexels-17.jpeg");
+  background-size: contain;
+}
