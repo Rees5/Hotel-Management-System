@@ -8,7 +8,13 @@ $(document).ready(function() {
     var price = (room * guest);
     $("#total").text(price);
     $("#pay").click(function(event){
-      alert("Confirmed! You have succssefully paid " + price + " to belmond hotel.")
+      event.preventDefault();
+      parseInt(prompt("Input your pin"));
+      if(pin>=1){
+      alert("Confirmed! You have succssefully paid " + price + " to belmond hotel.");
+    } else {
+      alert("Invalid pin")
+    };
       });
   });
 });
