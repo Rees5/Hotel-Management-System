@@ -12,7 +12,7 @@ $(document).ready(function() {
       event.preventDefault();
       var pin = parseInt(prompt("Input your "  + pay + "  pin"));
       if(pin>=1){
-      alert("Confirmed! You have succssefully paid " + price + " to belmond hotel.");
+      alert("Confirmed! You have succssefully paid " + price + " to Arjana Hotel");
     } else {
       alert("Invalid pin")
     };
