@@ -1,0 +1,34 @@
+
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width">
+      <meta charset="utf-8">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/mdb.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
+        <script>
+            know = {
+                "Hi" : " Welcome to Arjana. would you like to make a reservation?",
+                "Yes" : " Ok, I would be reffering you to the various services available as soon as possible",
+                "Ok" : ":)"
+            };
+            function talk() {
+                var user = document.getElementById("userBox").value;
+                document.getElementById("userBox").value = "";
+                document.getElementById("chatLog").innerHTML +="User: " + user+"<br>";
+                if (user in know) {
+                    document.getElementById("chatLog").innerHTML += "Arjana: " + know[user]+"<br>";
+                } else {
+                    document.getElementById("chatLog").innerHTML += "Arjana: I don't understand your statement...<br>";
+                }
+            }
+        </script>
+    </head>
+    <body id="ki">
+      <div id="Kid" class="jumbotron">
+        <p id="chatLog">Arjana<br></p>
+        User: <input id="userBox" type="text" onkeydown="if (event.keyCode == 13) {talk()}">
+      </div>
+    </body>
+</html>
