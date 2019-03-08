@@ -12,6 +12,10 @@ body {
   background-color: #F9EBEA;
   background-image: url("book.jpeg");
 }
+#ki {
+  background-image: url("pexels-4.jpeg");
+  background-size: contain;
+}
 #h1 {
   margin-left: 0%;
   margin-right: 30%;
